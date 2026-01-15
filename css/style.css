@@ -1,0 +1,90 @@
+/* Fonts */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Glass Navbar */
+.glass {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+/* Cart Badge */
+.cart-count {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background: #2e7d32;
+    color: white;
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hero Styles */
+.badge {
+    color: #16a34a;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.hero-title {
+    font-size: 4rem;
+    margin: 1rem 0;
+    color: #052e16;
+}
+
+.hero-text {
+    color: #4b5563;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background: #14532d;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background: #166534;
+}
+
+.btn-outline {
+    border: 1px solid #14532d;
+    color: #14532d;
+    padding: 1rem 2rem;
+    border-radius: 999px;
+}
+
+/* Hero Image */
+.hero-image {
+    height: 500px;
+    background: #dcfce7;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.px-6{
+    /* padding-bottom: 1.5rem; */
+        padding-bottom: 2rem;
+
+}
